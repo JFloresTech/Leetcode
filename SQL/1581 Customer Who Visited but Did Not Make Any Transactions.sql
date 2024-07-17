@@ -99,6 +99,7 @@ INSERT INTO Transactions (transaction_id, visit_id, amount) values ('3', '5', '3
 INSERT INTO Transactions (transaction_id, visit_id, amount) values ('9', '5', '200')
 INSERT INTO Transactions (transaction_id, visit_id, amount) values ('12', '1', '910')
 INSERT INTO Transactions (transaction_id, visit_id, amount) values ('13', '2', '970')
+GO
 
 -----------------------
 --SOLUTION

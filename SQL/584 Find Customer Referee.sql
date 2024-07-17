@@ -61,6 +61,8 @@ INSERT INTO Customer (id, name, referee_id) values ('3', 'Alex', '2')
 INSERT INTO Customer (id, name, referee_id) values ('4', 'Bill', NULL)
 INSERT INTO Customer (id, name, referee_id) values ('5', 'Zack', '1')
 INSERT INTO Customer (id, name, referee_id) values ('6', 'Mark', '2')
+GO
+
 -----------------------
 --SOLUTION
 -----------------------

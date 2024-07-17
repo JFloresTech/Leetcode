@@ -63,6 +63,7 @@ INSERT INTO World (name, continent, area, population, gdp) values ('Albania', 'E
 INSERT INTO World (name, continent, area, population, gdp) values ('Algeria', 'Africa', '2381741', '37100000', '188681000000')
 INSERT INTO World (name, continent, area, population, gdp) values ('Andorra', 'Europe', '468', '78115', '3712000000')
 INSERT INTO World (name, continent, area, population, gdp) values ('Angola', 'Africa', '1246700', '20609294', '100990000000')
+GO
 
 -----------------------
 --SOLUTION

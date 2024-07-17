@@ -89,6 +89,7 @@ INSERT INTO Activity (machine_id, process_id, activity_type, timestamp) values (
 INSERT INTO Activity (machine_id, process_id, activity_type, timestamp) values ('2', '0', 'end', '4.512')
 INSERT INTO Activity (machine_id, process_id, activity_type, timestamp) values ('2', '1', 'start', '2.5')
 INSERT INTO Activity (machine_id, process_id, activity_type, timestamp) values ('2', '1', 'end', '5');
+GO
 
 -----------------------
 --SOLUTION

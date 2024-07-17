@@ -88,6 +88,7 @@ INSERT INTO Sales (sale_id, product_id, year, quantity, price) values ('7', '200
 INSERT INTO Product (product_id, product_name) values ('100', 'Nokia')
 INSERT INTO Product (product_id, product_name) values ('200', 'Apple')
 INSERT INTO Product (product_id, product_name) values ('300', 'Samsung')
+GO
 
 -----------------------
 --SOLUTION

@@ -60,6 +60,7 @@ INSERT INTO Weather (id, recordDate, temperature) values ('1', '2015-01-01', '10
 INSERT INTO Weather (id, recordDate, temperature) values ('2', '2015-01-02', '25')
 INSERT INTO Weather (id, recordDate, temperature) values ('3', '2015-01-03', '20')
 INSERT INTO Weather (id, recordDate, temperature) values ('4', '2015-01-04', '30')
+GO
 
 -----------------------
 --SOLUTION

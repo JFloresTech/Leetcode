@@ -90,6 +90,7 @@ INSERT INTO Employees (id, name) values ('3', 'Jonathan')
 INSERT INTO EmployeeUNI (id, unique_id) values ('3', '1')
 INSERT INTO EmployeeUNI (id, unique_id) values ('11', '2')
 INSERT INTO EmployeeUNI (id, unique_id) values ('90', '3')
+GO
 
 -----------------------
 --SOLUTION

@@ -136,6 +136,7 @@ INSERT INTO Examinations (student_id, subject_name) values ('13', 'Programming')
 INSERT INTO Examinations (student_id, subject_name) values ('13', 'Physics')
 INSERT INTO Examinations (student_id, subject_name) values ('2', 'Math')
 INSERT INTO Examinations (student_id, subject_name) values ('1', 'Math')
+GO
 
 -----------
 -- SOLUTION
@@ -147,3 +148,12 @@ CROSS JOIN Subjects sub
 LEFT JOIN Examinations e ON s.student_id = e.student_id AND sub.subject_name = e.subject_name
 GROUP BY s.student_id, s.student_name, sub.subject_name
 ORDER BY s.student_id, sub.subject_name;
+
+/* REMOVE 
+ USE master
+ GO
+ ALTER DATABASE [Leetcode_1280] 
+ SET SINGLE_USER 
+ WITH ROLLBACK IMMEDIATE
+ DROP DATABASE [Leetcode_1280]
+*/

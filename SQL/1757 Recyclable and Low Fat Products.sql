@@ -46,6 +46,7 @@ Output:
 +-------------+
 Explanation: Only products 1 and 3 are both low fat and recyclable.
 */
+
 CREATE DATABASE Leetcode_1757
 GO
 USE Leetcode_1757
@@ -59,6 +60,7 @@ INSERT INTO Products (product_id, low_fats, recyclable) values ('1', 'Y', 'Y')
 INSERT INTO Products (product_id, low_fats, recyclable) values ('2', 'N', 'Y')
 INSERT INTO Products (product_id, low_fats, recyclable) values ('3', 'Y', 'Y')
 INSERT INTO Products (product_id, low_fats, recyclable) values ('4', 'N', 'N')
+GO
 
 -----------
 -- SOLUTION
@@ -67,3 +69,12 @@ INSERT INTO Products (product_id, low_fats, recyclable) values ('4', 'N', 'N')
 SELECT product_id
 FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y';
+
+/* REMOVE 
+ USE master
+ GO
+ ALTER DATABASE [Leetcode_1757] 
+ SET SINGLE_USER 
+ WITH ROLLBACK IMMEDIATE
+ DROP DATABASE [Leetcode_1757]
+*/
