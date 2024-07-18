@@ -93,15 +93,16 @@ GO
 --SOLUTION
 -----------------------
  
-SELECT [Prices].[product_id] AS product_id, COALESCE(CAST((SUM([Prices].[price]*[UnitsSold].[units]*1.00)/(SUM(units)*1.00)) AS numeric(4,2)), 0) AS average_price
-FROM [Prices] LEFT JOIN [UnitsSold]
-ON [Prices].[product_id] = [UnitsSold].[product_id] AND [UnitsSold].[purchase_date] BETWEEN [Prices].[start_date] AND [Prices].[end_date]
-GROUP BY [Prices].[product_id]
+SELECT [Project].[project_id] AS project_id, CAST(AVG([Employee].[experience_years]*1.00) AS  numeric(4,2)) AS average_years
+FROM [Project] LEFT JOIN [Employee]
+ON [Project].[employee_id] = [Employee].[employee_id]
+GROUP BY [Project].[project_id]
+
 /* REMOVE 
  USE master
  GO
- ALTER DATABASE [Leetcode_1251] 
+ ALTER DATABASE [Leetcode_1075] 
  SET SINGLE_USER 
  WITH ROLLBACK IMMEDIATE
- DROP DATABASE [Leetcode_1251]
+ DROP DATABASE [Leetcode_1075]
 */
