@@ -1,5 +1,5 @@
 /*
-Leetcode SQL50: 1661 Average Time of Process per Machine(Easy)
+Leetcode SQL50: 1661 Average Time of Process per Machine (Easy)
 
 Table: Activity
 

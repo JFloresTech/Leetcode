@@ -1,5 +1,5 @@
 /*
-Leetcode SQL50: 577 Employee Bonus(Easy)
+Leetcode SQL50: 577 Employee Bonus (Easy)
 
 Table: Employee
 

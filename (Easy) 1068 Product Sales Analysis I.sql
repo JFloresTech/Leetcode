@@ -1,5 +1,5 @@
 /*
-Leetcode SQL50: 1068 Product Sales Analysis I(Easy)
+Leetcode SQL50: 1068 Product Sales Analysis I (Easy)
 
 Table: Sales
 
